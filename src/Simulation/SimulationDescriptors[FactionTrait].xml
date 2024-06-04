@@ -65,9 +65,6 @@
 		
 		Without these, custom tooltip effects won't appear.
 	-->
-	<SimulationDescriptor Name="CTKapakuVolcanoformerMedium" Type="FactionTrait" />
-	<SimulationDescriptor Name="CTKapakuVolcanoformerBig" Type="FactionTrait" />
-	
 	<SimulationDescriptor Name="CTHobnobsGreedStrategic" Type="FactionTrait" />
 	<SimulationDescriptor Name="CTHobnobsGreedStrategicL1" Type="FactionTrait" />
 	<SimulationDescriptor Name="CTHobnobsGreedStrategicL2" Type="FactionTrait" />

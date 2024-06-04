@@ -122,27 +122,6 @@
 		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL5" />
 	</FactionTrait>
 	
-	<!-- 2-tile wide Volcanoformer. -->
-	<FactionTrait Name="CTKapakuVolcanoformerMedium"
-					  SubCategory="StandardTrait"
-					  Family="ChickenTraits"
-					  Custom="true"
-					  Cost="25"
-					  Root="FactionTraitFlames1">
-		<Prerequisites>dlc:SummerFlamesPack,!AffinityVaulters,!AffinityMezari,!AffinityReplicants,!FactionTraitFlames1,!CTKapakuVolcanoformerBig</Prerequisites>
-		<SimulationDescriptorReference Name="CTKapakuVolcanoformerMedium"/>
-	</FactionTrait>
-	<!-- Region-wide Volcanoformer. -->
-	<FactionTrait Name="CTKapakuVolcanoformerBig"
-					  SubCategory="StandardTrait"
-					  Family="ChickenTraits"
-					  Custom="true"
-					  Cost="50"
-					  Root="FactionTraitFlames1">
-		<Prerequisites>dlc:SummerFlamesPack,!AffinityVaulters,!AffinityMezari,!AffinityReplicants,!FactionTraitFlames1,!CTKapakuVolcanoformerMedium</Prerequisites>
-		<SimulationDescriptorReference Name="CTKapakuVolcanoformerBig"/>
-	</FactionTrait>
-	
 	<!-- TESTING. -->
 	<!-- Testing. 1/5 -->
 	<FactionTrait Name="CTIgnoreMeL1"

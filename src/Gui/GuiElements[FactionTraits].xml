@@ -56,16 +56,6 @@
 		</TooltipElement>
 	</ExtendedGuiElement>
 	
-	<!-- Volcanoformers.. -->
-	<GuiElement Name="CTKapakuVolcanoformerMedium">
-		<Title>%CTKapakuVolcanoformerMediumTitle</Title>
-		<Description>%CTKapakuVolcanoformerMediumDescription</Description>
-	</GuiElement>
-	<GuiElement Name="CTKapakuVolcanoformerBig">
-		<Title>%CTKapakuVolcanoformerBigTitle</Title>
-		<Description>%CTKapakuVolcanoformerBigDescription</Description>
-	</GuiElement>
-	
 	<!-- TESTING. -->
 	<GuiElement Name="CTIgnoreMeL1">
 		<Title>%CTIgnoreMeTitle</Title>

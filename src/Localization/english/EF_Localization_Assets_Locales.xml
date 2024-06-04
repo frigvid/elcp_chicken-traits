@@ -13,13 +13,6 @@
 	<LocalizationPair Name="%CTHobnobsGreedStrategicTitle">Hobnob's greed: Strategic</LocalizationPair>
 	<LocalizationPair Name="%CTHobnobsGreedStrategicDescription">(Chicken Traits) Start with some strategic resources.</LocalizationPair>
 	
-	<!-- Volcanoformers. -->
-	<LocalizationPair Name="%CTKapakuVolcanoformerWarning">You cannot have other Volcanoformer traits present; only one at a time. Either this, the other one, or the vanilla one.</LocalizationPair>
-	<LocalizationPair Name="%CTKapakuVolcanoformerMediumTitle">Volcanoformation: Medium</LocalizationPair>
-	<LocalizationPair Name="%CTKapakuVolcanoformerMediumDescription">(Chicken Traits) 2-tile wide Volcanoformer. You cannot have other Volcanoformer traits present; only one at a time. Either this, the other one, or the vanilla one.</LocalizationPair>
-	<LocalizationPair Name="%CTKapakuVolcanoformerBigTitle">Volcanoformation: Big</LocalizationPair>
-	<LocalizationPair Name="%CTKapakuVolcanoformerBigDescription">(Chicken Traits) Region-wide Volcanoformer. You cannot have other Volcanoformer traits present; only one at a time. Either this, the other one, or the vanilla one.</LocalizationPair>
-	
 	<!-- TESTING. -->
 	<LocalizationPair Name="%CTIgnoreMeTitle">Ignore Me</LocalizationPair>
 	<LocalizationPair Name="%CTIgnoreMeDescription">(Chicken Traits) This has no effects. It is just for testing. Though, I suppose you can use it as a handicap, if you'd like.</LocalizationPair>
