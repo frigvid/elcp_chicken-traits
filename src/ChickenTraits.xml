@@ -10,7 +10,7 @@
 		<Version Major="1"
 					Minor="0"
 					Revision="0" />
-		<Description>A small collection of traits.</Description>
+		<Description>A small collection of traits.&#xA;&#xA;Volcanic Nourishment: Unique to the Kapaku faction. It's a counter-balance to ELCP's overly aggressive nerf of the faction, and simply lets Kapaku get food from the tiles they're actually meant to, relative to the lore and the base game.&#xA;&#xA;Hobnob's Greed: Strategic: A tiered trait that lets you start with some strategic resources at the beginning of the game.&#xA;&#xA;Agricultural Inferiority: Gives you negative 1 food per food tile, but +2 production per population.&#xA;&#xA;Bigger Militia: Grants +1 militia slot.&#xA;&#xA;Researcher's Dilemma: Reduces research cost of previous eras by 30%.&#xA;&#xA;Balance not included.</Description>
 		<PreviewImageFile>logo.png</PreviewImageFile>
 		<ReleaseNotes />
 		<Plugins>
