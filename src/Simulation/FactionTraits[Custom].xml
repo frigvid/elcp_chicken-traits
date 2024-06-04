@@ -131,7 +131,7 @@
 					  Cost="25"
 					  Level="1"
 					  Root="CTIgnoreMe">
-		<Prerequisites>CTHobnobsGreedTitanium,CTHobnobsGreedGlassteel,CTHobnobsGreedAdamantian,CTHobnobsGreedPalladian,CTHobnobsGreedMithrite,CTHobnobsGreedHyperium</Prerequisites>
+		<Prerequisites>CTHobnobsGreedStrategicL5</Prerequisites>
 		<SimulationDescriptorReference Name="CTIgnoreMeL1" />
 	</FactionTrait>
 	<!-- Testing. 2/5 -->
