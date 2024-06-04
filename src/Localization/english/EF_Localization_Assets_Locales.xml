@@ -21,6 +21,10 @@
 	<LocalizationPair Name="%CTBiggerMilitiaTitle">Bigger Militia</LocalizationPair>
 	<LocalizationPair Name="%CTBiggerMilitiaDescription">(Chicken Traits) A dash of cuddling grants a little extra space in your militia.</LocalizationPair>
 	
+	<!-- Researchers Dilemma. -->
+	<LocalizationPair Name="%CTResearchersDilemmaTitle">Researchers Dilemma</LocalizationPair>
+	<LocalizationPair Name="%CTResearchersDilemmaDescription">(Chicken Traits) You will run out of things to research, and what then? Go to another planet? Bah.</LocalizationPair>
+	
 	<!-- TESTING. -->
 	<LocalizationPair Name="%CTIgnoreMeTitle">Ignore Me</LocalizationPair>
 	<LocalizationPair Name="%CTIgnoreMeDescription">(Chicken Traits) This has no effects. It is just for testing. Though, I suppose you can use it as a handicap, if you'd like.</LocalizationPair>

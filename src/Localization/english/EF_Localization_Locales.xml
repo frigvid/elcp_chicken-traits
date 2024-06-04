@@ -7,4 +7,7 @@
 	<LocalizationPair Name="%CTHobnobsGreedStrategicL3Effect">+60 #3C98FF#\7711\#REVERT# at start&#xA;+60 #EAD085#\7712\#REVERT# at start&#xA;+60 #EB897C#\7713\#REVERT# at start&#xA;+60 #CB1D5A#\7714\#REVERT# at start&#xA;+60 #1FBB71#\7715\#REVERT# at start&#xA;+60 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
 	<LocalizationPair Name="%CTHobnobsGreedStrategicL4Effect">+80 #3C98FF#\7711\#REVERT# at start&#xA;+80 #EAD085#\7712\#REVERT# at start&#xA;+80 #EB897C#\7713\#REVERT# at start&#xA;+80 #CB1D5A#\7714\#REVERT# at start&#xA;+80 #1FBB71#\7715\#REVERT# at start&#xA;+80 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
 	<LocalizationPair Name="%CTHobnobsGreedStrategicL5Effect">+100 #3C98FF#\7711\#REVERT# at start&#xA;+100 #EAD085#\7712\#REVERT# at start&#xA;+100 #EB897C#\7713\#REVERT# at start&#xA;+100 #CB1D5A#\7714\#REVERT# at start&#xA;+100 #1FBB71#\7715\#REVERT# at start&#xA;+100 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+
+	<!-- Researchers Dilemma. -->
+	<LocalizationPair Name="%CTResearchersDilemmaEffect">-30% Research Cost in Past Eras.</LocalizationPair>
 </Datatable>

@@ -89,6 +89,38 @@
 		</SimulationModifierDescriptors>
 	</SimulationDescriptor>
 	
+	<!-- Researchers Dilemma. -->
+	<SimulationDescriptor Name="CTResearchersDilemma"
+								 Type="FactionTrait">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Era1ReductionCost"
+													Operation="Percent"
+													Value="0.3"
+													Path="../ClassEmpire/ClassResearch,TechnologyEra2" 
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="Era2ReductionCost"
+													Operation="Percent"
+													Value="0.3"
+													Path="../ClassEmpire/ClassResearch,TechnologyEra3" 
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="Era3ReductionCost"
+													Operation="Percent"
+													Value="0.3"
+													Path="../ClassEmpire/ClassResearch,TechnologyEra4" 
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="Era4ReductionCost"
+													Operation="Percent"
+													Value="0.3"
+													Path="../ClassEmpire/ClassResearch,TechnologyEra5" 
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="Era5ReductionCost"
+													Operation="Percent"
+													Value="0.3"
+													Path="../ClassEmpire/ClassResearch,TechnologyEra6" 
+													TooltipHidden="true" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
 	<!--
 		Empty references.
 		

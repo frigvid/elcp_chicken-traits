@@ -141,6 +141,15 @@
 		<SimulationDescriptorReference Name="CTBiggerMilitia" />
 	</FactionTrait>
 	
+	<!-- Researchers Dilemma -->
+	<FactionTrait Name="CTResearchersDilemma"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="15">
+		<SimulationDescriptorReference Name="CTResearchersDilemma" />
+	</FactionTrait>
+	
 	<!-- TESTING. -->
 	<!-- Testing. 1/5 -->
 	<FactionTrait Name="CTIgnoreMeL1"

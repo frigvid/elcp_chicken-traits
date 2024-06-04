@@ -27,6 +27,8 @@
 	- Gives you negative 1 food per food tile, but +2 production per population.
 - Bigger Militia.
 	- Grants +1 militia slot.
+- Researcher's Dilemma.
+	- Reduces research cost of previous eras by 30%.
 
 # Sources
 

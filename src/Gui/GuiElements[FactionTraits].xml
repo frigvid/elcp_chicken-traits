@@ -68,6 +68,15 @@
 		<Description>%CTBiggerMilitiaDescription</Description>
 	</GuiElement>
 	
+	<!-- Researchers Dilemma. -->
+	<ExtendedGuiElement Name="CTResearchersDilemma">
+		<Title>%CTResearchersDilemmaTitle</Title>
+		<Description>%CTResearchersDilemmaDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTResearchersDilemmaEffect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	
 	<!-- TESTING. -->
 	<GuiElement Name="CTIgnoreMeL1">
 		<Title>%CTIgnoreMeTitle</Title>
