@@ -13,6 +13,14 @@
 	<LocalizationPair Name="%CTHobnobsGreedStrategicTitle">Hobnob's greed: Strategic</LocalizationPair>
 	<LocalizationPair Name="%CTHobnobsGreedStrategicDescription">(Chicken Traits) Start with some strategic resources.</LocalizationPair>
 	
+	<!-- Agricultural Inferiority. -->
+	<LocalizationPair Name="%CTAgriculturalInferiorityTitle">Agricultural Inferiority</LocalizationPair>
+	<LocalizationPair Name="%CTAgriculturalInferiorityDescription">(Chicken Traits) You're not very good at this, are you?</LocalizationPair>
+	
+	<!-- Bigger Militia. -->
+	<LocalizationPair Name="%CTBiggerMilitiaTitle">Bigger Militia</LocalizationPair>
+	<LocalizationPair Name="%CTBiggerMilitiaDescription">(Chicken Traits) A dash of cuddling grants a little extra space in your militia.</LocalizationPair>
+	
 	<!-- TESTING. -->
 	<LocalizationPair Name="%CTIgnoreMeTitle">Ignore Me</LocalizationPair>
 	<LocalizationPair Name="%CTIgnoreMeDescription">(Chicken Traits) This has no effects. It is just for testing. Though, I suppose you can use it as a handicap, if you'd like.</LocalizationPair>

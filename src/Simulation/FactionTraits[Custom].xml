@@ -122,6 +122,25 @@
 		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL5" />
 	</FactionTrait>
 	
+	<!-- Agricultural Inferiority.-->
+	<FactionTrait Name="CTAgriculturalInferiority"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="10">
+		<Prerequisites>!AffinityBrokenLords</Prerequisites>
+		<SimulationDescriptorReference Name="CTAgriculturalInferiority" />
+	</FactionTrait>
+	
+	<!-- Bigger Militia. -->
+	<FactionTrait Name="CTBiggerMilitia"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="15">
+		<SimulationDescriptorReference Name="CTBiggerMilitia" />
+	</FactionTrait>
+	
 	<!-- TESTING. -->
 	<!-- Testing. 1/5 -->
 	<FactionTrait Name="CTIgnoreMeL1"
@@ -131,7 +150,7 @@
 					  Cost="25"
 					  Level="1"
 					  Root="CTIgnoreMe">
-		<Prerequisites>CTHobnobsGreedStrategicL5</Prerequisites>
+		<Prerequisites>CTHobnobsGreedStrategicL5, CTBiggerMilitia</Prerequisites>
 		<SimulationDescriptorReference Name="CTIgnoreMeL1" />
 	</FactionTrait>
 	<!-- Testing. 2/5 -->

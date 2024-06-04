@@ -60,6 +60,35 @@
 		</SimulationModifierDescriptors>
 	</SimulationDescriptor>
 	
+	<!-- Agricultural Inferiority. -->
+	<SimulationDescriptor Name="CTAgriculturalInferiority"
+								 Type="FactionTrait">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DistrictFood"
+													Operation="Subtraction"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagFood" />
+			<SimulationModifierDescriptor TargetProperty="DistrictFood"
+													Operation="Subtraction"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassCreepingNode/ClassDistrict,TerrainTagFood"
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="BaseIndustryPerPopulation"
+													Value="2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<!-- Bigger Militia. -->
+	<SimulationDescriptor Name="CTBiggerMilitia"
+								 Type="FactionTrait">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaximumUnitSlotCount"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity,MainCity/Militia" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
 	<!--
 		Empty references.
 		

@@ -56,6 +56,18 @@
 		</TooltipElement>
 	</ExtendedGuiElement>
 	
+	<!-- Agricultural Inferiority.-->
+	<GuiElement Name="CTAgriculturalInferiority">
+		<Title>%CTAgriculturalInferiorityTitle</Title>
+		<Description>%CTAgriculturalInferiorityDescription</Description>
+	</GuiElement>
+	
+	<!-- Bigger Militia. -->
+	<GuiElement Name="CTBiggerMilitia">
+		<Title>%CTBiggerMilitiaTitle</Title>
+		<Description>%CTBiggerMilitiaDescription</Description>
+	</GuiElement>
+	
 	<!-- TESTING. -->
 	<GuiElement Name="CTIgnoreMeL1">
 		<Title>%CTIgnoreMeTitle</Title>

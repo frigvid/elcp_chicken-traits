@@ -23,6 +23,10 @@
 	+ Unique to the Kapaku faction. It's a counter-balance to ELCP's overly aggressive nerf of the faction, and simply lets Kapaku get food from the tiles they're actually meant to, relative to the lore and the base game.
 - Hobnob's Greed: Strategic.
 	+ A tiered trait that lets you start with some strategic resources at the beginning of the game.
+- Agricultural Inferiority.
+	- Gives you negative 1 food per food tile, but +2 production per population.
+- Bigger Militia.
+	- Grants +1 militia slot.
 
 # Sources
 
