@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<RuntimeModule Name="ChickenTraits"
+						Type="Extension">
+		<Tags />
+		<Author>Chicken</Author>
+		<Homepage />
+		<Title>Chicken traits</Title>
+		<Version Major="1"
+					Minor="0"
+					Revision="0" />
+		<Description>A small collection of traits.</Description>
+		<PreviewImageFile>logo.png</PreviewImageFile>
+		<ReleaseNotes />
+		<Plugins>
+			<!-- Gui -->
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+					<ExtraType DataType="QuestGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TechnologyGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TechnologyEraGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="UnitSkillGuiElement, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Gui/GuiElements[*].xml</FilePath>
+			</DatabasePlugin>
+			<!-- Traits-->
+			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+			  <FilePath>Simulation/FactionTraits.xml</FilePath>
+			  <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+			</DatabasePlugin>
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+			  <FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+			  <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+			</DatabasePlugin>
+			<!-- Localization -->
+			<LocalizationPlugin>
+				<Directory>Localization</Directory>
+			</LocalizationPlugin>
+		</Plugins>
+	</RuntimeModule>
+</Datatable>

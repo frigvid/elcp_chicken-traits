@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Kapaku tile worth. -->
+	<FactionTrait Name="CTKapakuVolcanicTerrainWorth"
+					  SubCategory="StandardTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="1">
+		<Prerequisites>dlc:SummerFlamesPack,AffinityFlames</Prerequisites>
+		<SimulationDescriptorReference Name="CTKapakuVolcanicTerrainWorth" />
+	</FactionTrait>
+	
+	<!--
+		Hobnob's greed.
+		
+		It's an inside joke, don't worry about it.
+	-->
+	<FactionTrait Name="CTHobnobsGreedStrategicL1"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="10"
+					  Level="1"
+					  Root="CTHobnobsGreedStrategic">
+		<Command Name="TransferResources"
+					Arguments="Strategic1,20" />
+		<Command Name="TransferResources"
+					Arguments="Strategic2,20" />
+		<Command Name="TransferResources"
+					Arguments="Strategic3,20" />
+		<Command Name="TransferResources"
+					Arguments="Strategic4,20" />
+		<Command Name="TransferResources"
+					Arguments="Strategic5,20" />
+		<Command Name="TransferResources"
+					Arguments="Strategic6,20" />
+		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL1" />
+	</FactionTrait>
+	<FactionTrait Name="CTHobnobsGreedStrategicL2"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="20"
+					  Level="2"
+					  Root="CTHobnobsGreedStrategic">
+		<Command Name="TransferResources"
+					Arguments="Strategic1,40" />
+		<Command Name="TransferResources"
+					Arguments="Strategic2,40" />
+		<Command Name="TransferResources"
+					Arguments="Strategic3,40" />
+		<Command Name="TransferResources"
+					Arguments="Strategic4,40" />
+		<Command Name="TransferResources"
+					Arguments="Strategic5,40" />
+		<Command Name="TransferResources"
+					Arguments="Strategic6,40" />
+		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL2" />
+	</FactionTrait>
+	<FactionTrait Name="CTHobnobsGreedStrategicL3"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="30"
+					  Level="3"
+					  Root="CTHobnobsGreedStrategic">
+		<Command Name="TransferResources"
+					Arguments="Strategic1,60" />
+		<Command Name="TransferResources"
+					Arguments="Strategic2,60" />
+		<Command Name="TransferResources"
+					Arguments="Strategic3,60" />
+		<Command Name="TransferResources"
+					Arguments="Strategic4,60" />
+		<Command Name="TransferResources"
+					Arguments="Strategic5,60" />
+		<Command Name="TransferResources"
+					Arguments="Strategic6,60" />
+		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL3" />
+	</FactionTrait>
+	<FactionTrait Name="CTHobnobsGreedStrategicL4"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="40"
+					  Level="4"
+					  Root="CTHobnobsGreedStrategic">
+		<Command Name="TransferResources"
+					Arguments="Strategic1,80" />
+		<Command Name="TransferResources"
+					Arguments="Strategic2,80" />
+		<Command Name="TransferResources"
+					Arguments="Strategic3,80" />
+		<Command Name="TransferResources"
+					Arguments="Strategic4,80" />
+		<Command Name="TransferResources"
+					Arguments="Strategic5,80" />
+		<Command Name="TransferResources"
+					Arguments="Strategic6,80" />
+		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL4" />
+	</FactionTrait>
+	<FactionTrait Name="CTHobnobsGreedStrategicL5"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="50"
+					  Level="5"
+					  Root="CTHobnobsGreedStrategic">
+		<Command Name="TransferResources"
+					Arguments="Strategic1,100" />
+		<Command Name="TransferResources"
+					Arguments="Strategic2,100" />
+		<Command Name="TransferResources"
+					Arguments="Strategic3,100" />
+		<Command Name="TransferResources"
+					Arguments="Strategic4,100" />
+		<Command Name="TransferResources"
+					Arguments="Strategic5,100" />
+		<Command Name="TransferResources"
+					Arguments="Strategic6,100" />
+		<SimulationDescriptorReference Name="CTHobnobsGreedStrategicL5" />
+	</FactionTrait>
+	
+	<!-- 2-tile wide Volcanoformer. -->
+	<FactionTrait Name="CTKapakuVolcanoformerMedium"
+					  SubCategory="StandardTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="25"
+					  Root="FactionTraitFlames1">
+		<Prerequisites>dlc:SummerFlamesPack,!AffinityVaulters,!AffinityMezari,!AffinityReplicants,!FactionTraitFlames1,!CTKapakuVolcanoformerBig</Prerequisites>
+		<SimulationDescriptorReference Name="CTKapakuVolcanoformerMedium"/>
+	</FactionTrait>
+	<!-- Region-wide Volcanoformer. -->
+	<FactionTrait Name="CTKapakuVolcanoformerBig"
+					  SubCategory="StandardTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="50"
+					  Root="FactionTraitFlames1">
+		<Prerequisites>dlc:SummerFlamesPack,!AffinityVaulters,!AffinityMezari,!AffinityReplicants,!FactionTraitFlames1,!CTKapakuVolcanoformerMedium</Prerequisites>
+		<SimulationDescriptorReference Name="CTKapakuVolcanoformerBig"/>
+	</FactionTrait>
+	
+	<!-- TESTING. -->
+	<!-- Testing. 1/5 -->
+	<FactionTrait Name="CTIgnoreMeL1"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="25"
+					  Level="1"
+					  Root="CTIgnoreMe">
+		<Prerequisites>CTHobnobsGreedTitanium,CTHobnobsGreedGlassteel,CTHobnobsGreedAdamantian,CTHobnobsGreedPalladian,CTHobnobsGreedMithrite,CTHobnobsGreedHyperium</Prerequisites>
+		<SimulationDescriptorReference Name="CTIgnoreMeL1" />
+	</FactionTrait>
+	<!-- Testing. 2/5 -->
+	<FactionTrait Name="CTIgnoreMeL2"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="50"
+					  Level="2"
+					  Root="CTIgnoreMe">
+		<SimulationDescriptorReference Name="CTIgnoreMeL2" />
+	</FactionTrait>
+	<!-- Testing. 3/5 -->
+	<FactionTrait Name="CTIgnoreMeL3"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="75"
+					  Level="3"
+					  Root="CTIgnoreMe">
+		<SimulationDescriptorReference Name="CTIgnoreMeL3" />
+	</FactionTrait>
+	<!-- Testing. 4/5 -->
+	<FactionTrait Name="CTIgnoreMeL4"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="100"
+					  Level="4"
+					  Root="CTIgnoreMe">
+		<SimulationDescriptorReference Name="CTIgnoreMeL4" />
+	</FactionTrait>
+	<!-- Testing. 5/5 -->
+	<FactionTrait Name="CTIgnoreMeL5"
+					  SubCategory="CustomTrait"
+					  Family="ChickenTraits"
+					  Custom="true"
+					  Cost="-1000"
+					  Level="5"
+					  Root="CTIgnoreMe">
+		<SimulationDescriptorReference Name="CTIgnoreMeL5" />
+	</FactionTrait>
+</Datatable>

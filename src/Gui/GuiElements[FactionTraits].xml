@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!--
+		Category.
+		
+		You'll need to set 'Family="ChickenTraits"' for this to work.
+	-->
+	<GuiElement Name="CustomTraitFamilyFilterChickenTraits">
+		<Title>%CustomTraitFamilyFilterChickenTraitsTitle</Title>
+		<Description>%CustomTraitFamilyFilterChickenTraitsDescription</Description>
+	</GuiElement>
+	
+	<!-- TRAITS -->
+	
+	<!-- Kapaku tile worth. -->
+	<GuiElement Name="CTKapakuVolcanicTerrainWorth">
+		<Title>%CTKapakuVolcanicTerrainWorthTitle</Title>
+		<Description>%CTKapakuVolcanicTerrainWorthDescription</Description>
+	</GuiElement>
+	
+	<!-- Hobnob's greed.-->
+	<ExtendedGuiElement Name="CTHobnobsGreedStrategicL1">
+		<Title>%CTHobnobsGreedStrategicTitle</Title>
+		<Description>%CTHobnobsGreedStrategicDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTHobnobsGreedStrategicL1Effect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	<ExtendedGuiElement Name="CTHobnobsGreedStrategicL2">
+		<Title>%CTHobnobsGreedStrategicTitle</Title>
+		<Description>%CTHobnobsGreedStrategicDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTHobnobsGreedStrategicL2Effect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	<ExtendedGuiElement Name="CTHobnobsGreedStrategicL3">
+		<Title>%CTHobnobsGreedStrategicTitle</Title>
+		<Description>%CTHobnobsGreedStrategicDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTHobnobsGreedStrategicL3Effect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	<ExtendedGuiElement Name="CTHobnobsGreedStrategicL4">
+		<Title>%CTHobnobsGreedStrategicTitle</Title>
+		<Description>%CTHobnobsGreedStrategicDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTHobnobsGreedStrategicL4Effect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	<ExtendedGuiElement Name="CTHobnobsGreedStrategicL5">
+		<Title>%CTHobnobsGreedStrategicTitle</Title>
+		<Description>%CTHobnobsGreedStrategicDescription</Description>
+		<TooltipElement Ignore="true">
+			<EffectOverride>%CTHobnobsGreedStrategicL5Effect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	
+	<!-- Volcanoformers.. -->
+	<GuiElement Name="CTKapakuVolcanoformerMedium">
+		<Title>%CTKapakuVolcanoformerMediumTitle</Title>
+		<Description>%CTKapakuVolcanoformerMediumDescription</Description>
+	</GuiElement>
+	<GuiElement Name="CTKapakuVolcanoformerBig">
+		<Title>%CTKapakuVolcanoformerBigTitle</Title>
+		<Description>%CTKapakuVolcanoformerBigDescription</Description>
+	</GuiElement>
+	
+	<!-- TESTING. -->
+	<GuiElement Name="CTIgnoreMeL1">
+		<Title>%CTIgnoreMeTitle</Title>
+		<Description>%CTIgnoreMeDescription</Description>
+	</GuiElement>
+	<GuiElement Name="CTIgnoreMeL2">
+		<Title>%CTIgnoreMeTitle</Title>
+		<Description>%CTIgnoreMeDescription</Description>
+	</GuiElement>
+	<GuiElement Name="CTIgnoreMeL3">
+		<Title>%CTIgnoreMeTitle</Title>
+		<Description>%CTIgnoreMeDescription</Description>
+	</GuiElement>
+	<GuiElement Name="CTIgnoreMeL4">
+		<Title>%CTIgnoreMeTitle</Title>
+		<Description>%CTIgnoreMeDescription</Description>
+	</GuiElement>
+	<GuiElement Name="CTIgnoreMeL5">
+		<Title>%CTIgnoreMeTitle</Title>
+		<Description>%CTIgnoreMeDescription</Description>
+	</GuiElement>
+</Datatable>

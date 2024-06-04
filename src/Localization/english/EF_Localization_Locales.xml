@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Hobnob's greed. -->
+	<LocalizationPair Name="%CTHobnobsGreedStrategicL1Effect">+20 #3C98FF#\7711\#REVERT# at start&#xA;+20 #EAD085#\7712\#REVERT# at start&#xA;+20 #EB897C#\7713\#REVERT# at start&#xA;+20 #CB1D5A#\7714\#REVERT# at start&#xA;+20 #1FBB71#\7715\#REVERT# at start&#xA;+20 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+	<LocalizationPair Name="%CTHobnobsGreedStrategicL2Effect">+40 #3C98FF#\7711\#REVERT# at start&#xA;+40 #EAD085#\7712\#REVERT# at start&#xA;+40 #EB897C#\7713\#REVERT# at start&#xA;+40 #CB1D5A#\7714\#REVERT# at start&#xA;+40 #1FBB71#\7715\#REVERT# at start&#xA;+40 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+	<LocalizationPair Name="%CTHobnobsGreedStrategicL3Effect">+60 #3C98FF#\7711\#REVERT# at start&#xA;+60 #EAD085#\7712\#REVERT# at start&#xA;+60 #EB897C#\7713\#REVERT# at start&#xA;+60 #CB1D5A#\7714\#REVERT# at start&#xA;+60 #1FBB71#\7715\#REVERT# at start&#xA;+60 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+	<LocalizationPair Name="%CTHobnobsGreedStrategicL4Effect">+80 #3C98FF#\7711\#REVERT# at start&#xA;+80 #EAD085#\7712\#REVERT# at start&#xA;+80 #EB897C#\7713\#REVERT# at start&#xA;+80 #CB1D5A#\7714\#REVERT# at start&#xA;+80 #1FBB71#\7715\#REVERT# at start&#xA;+80 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+	<LocalizationPair Name="%CTHobnobsGreedStrategicL5Effect">+100 #3C98FF#\7711\#REVERT# at start&#xA;+100 #EAD085#\7712\#REVERT# at start&#xA;+100 #EB897C#\7713\#REVERT# at start&#xA;+100 #CB1D5A#\7714\#REVERT# at start&#xA;+100 #1FBB71#\7715\#REVERT# at start&#xA;+100 #A75DFA#\7716\#REVERT# at start</LocalizationPair>
+</Datatable>

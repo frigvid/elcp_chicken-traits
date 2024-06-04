@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<SimulationDescriptor Name="CTClassTerraformDevice" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="DeviceCharges" BaseValue="0" MinValue="0"/>
+			<SimulationPropertyDescriptor Name="DeviceChargesPerTurn" BaseValue="0" MinValue="0"/>
+			<SimulationPropertyDescriptor Name="DeviceChargesToActivate" BaseValue="0" MinValue="0"/>
+			<SimulationPropertyDescriptor Name="DeviceRange" BaseValue="0" MinValue="0"/>
+			<SimulationPropertyDescriptor Name="DeviceDismantleDefense" BaseValue="0" MInValue="0"/>
+		</SimulationPropertyDescriptors>
+	</SimulationDescriptor>
+</Datatable>

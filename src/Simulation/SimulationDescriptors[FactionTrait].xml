@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!--
+		Kapaku tile worth. Restores tile science/industry/food to a more vanilla-esque state.
+		I just feel that ELCP nerfed this overly hard. Kapakus can only get food from Volcanic tiles,
+		limiting that to 1/5th or 2/5th the tiles, when those tiles are comparatively more rare, is just
+		massively overkill. They needed balancing; not butchering.
+		
+		Not all tiles are restored; it shouldn't be necessary. I can't se an Operation able to simply
+		overwrite an existing value, and ELCP *does* have some values already pre-set on *some* Volcanic
+		tiles. At least in terms of other things than food.
+		
+		These are the Volcanic terrain types that Kapaku should be able to make use of:
+		- Basalt Plains: TerrainTypeLavaPlains
+		- Barren Soil: TerrainTypeScorchedPrairie
+		- Ash Drifts: TerrainTypeAshPrairie
+		- Lava Swirls: TerrainTypeLavaSwirls
+		- Scorched Wilds: TerrainTypeCharredForest
+		- Badlands: TerrainTypeBadlands
+		- TerrainTagLavaRiver
+	 -->
+	<SimulationDescriptor Name="CTKapakuVolcanicTerrainWorth"
+								 Type="FactionTrait">
+		<SimulationModifierDescriptors>
+			<!-- Lava Plains/Basalt Plains. -->
+			<SimulationModifierDescriptor TargetProperty="DistrictFood"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTypeLavaPlains" />
+			<!-- Scorched Prairie/Barren Soil. -->
+			<SimulationModifierDescriptor TargetProperty="DistrictFood"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTypeScorchedPrairie" />
+			<!-- Ash Prairie/Ash Drifts. -->
+			<SimulationModifierDescriptor TargetProperty="DistrictFood"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTypeAshPrairie" />
+			<!-- Lava Rivers. -->
+			<SimulationModifierDescriptor TargetProperty="DistrictIndustry"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagLavaRiver" />
+			<SimulationModifierDescriptor TargetProperty="DistrictScience"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagLavaRiver" />
+			<SimulationModifierDescriptor TargetProperty="DistrictIndustry"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassCreepingNode/ClassDistrict,TerrainTagLavaRiver"
+													TooltipHidden="true" />
+			<SimulationModifierDescriptor TargetProperty="DistrictScience"
+													Operation="Addition"
+													Value="1"
+													Path="EmpireTypeMajor/ClassCity/ClassCreepingNode/ClassDistrict,TerrainTagLavaRiver"
+													TooltipHidden="true" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<!--
+		Empty references.
+		
+		Without these, custom tooltip effects won't appear.
+	-->
+	<SimulationDescriptor Name="CTKapakuVolcanoformerMedium" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTKapakuVolcanoformerBig" Type="FactionTrait" />
+	
+	<SimulationDescriptor Name="CTHobnobsGreedStrategic" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTHobnobsGreedStrategicL1" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTHobnobsGreedStrategicL2" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTHobnobsGreedStrategicL3" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTHobnobsGreedStrategicL4" Type="FactionTrait" />
+	<SimulationDescriptor Name="CTHobnobsGreedStrategicL5" Type="FactionTrait" />
+	
+	<!-- TESTING. -->
+	<SimulationDescriptor Name="CTIgnoreMe" Type="FactionTrait" />
+</Datatable>

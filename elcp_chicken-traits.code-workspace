@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.insertFinalNewline": false,
+		"editor.guides.bracketPairs": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 3,
+		"files.trimTrailingWhitespace": false,
+		"editor.trimAutoWhitespace": false,
+		"editor.renderWhitespace": "all",
+	},
+	"extensions": {
+		// Search for "@recommended" in the Extensions Activity Bar search.
+		"recommendations": [],
+		"unwantedRecommendations": []
+	},
+}
