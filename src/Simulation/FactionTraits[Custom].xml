@@ -127,7 +127,7 @@
 					  SubCategory="CustomTrait"
 					  Family="ChickenTraits"
 					  Custom="true"
-					  Cost="10">
+					  Cost="15">
 		<Prerequisites>!AffinityBrokenLords</Prerequisites>
 		<SimulationDescriptorReference Name="CTAgriculturalInferiority" />
 	</FactionTrait>
