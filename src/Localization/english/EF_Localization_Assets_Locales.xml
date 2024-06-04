@@ -11,7 +11,7 @@
 	
 	<!-- Hobnob's greed. -->
 	<LocalizationPair Name="%CTHobnobsGreedStrategicTitle">Hobnob's greed: Strategic</LocalizationPair>
-	<LocalizationPair Name="%CTHobnobsGreedStrategicDescription">(Chicken Traits) Start with some strategic resources.</LocalizationPair>
+	<LocalizationPair Name="%CTHobnobsGreedStrategicDescription">(Chicken Traits) Hobnob's greed knows no bounds. Start with some strategic resources.</LocalizationPair>
 	
 	<!-- Agricultural Inferiority. -->
 	<LocalizationPair Name="%CTAgriculturalInferiorityTitle">Agricultural Inferiority</LocalizationPair>
