@@ -197,7 +197,7 @@
 					  SubCategory="CustomTrait"
 					  Family="ChickenTraits"
 					  Custom="true"
-					  Cost="-1000"
+					  Cost="-2500"
 					  Level="5"
 					  Root="CTIgnoreMe">
 		<SimulationDescriptorReference Name="CTIgnoreMeL5" />
